@@ -21,10 +21,11 @@ html body
 
     box-sizing: border-box;
 }
-#about
+#About 
 {
+    
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 0;
     width: 100%;
     height:  40%;
@@ -34,27 +35,75 @@ html body
     justify-content: center;
     
 }
-#AP1
+#About > #AP1
 {
     position: absolute;
-    top: 10%;
+    height: 10%;
+    width: 100%;
+    top: 0%;
+    float: left;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+#About >#AP2
+{
+    position: absolute;
+    top: 20%;
     float: left;
     margin: 0px;
     width: 95%;
-    height: 40%;
+    height: 30%;
     background-color: white;
     border: 3px solid black;
     
 }
-#AP2
+#About > #AP3
 {
     position: absolute;
     top: 55%;
     float: left;
     margin: 0px;
     width: 95%;
-    height: 40%;
+    height: 30%;
     background-color: white;
     border: 3px solid black;
     
+}
+#Project
+{
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+    height:  40%;
+    background-color: rosybrown;
+    font-size: 4em;
+    
+    
+    
+    
+}
+#Project > #AP1
+{
+    position: relative;
+    height: 20%;
+    width: 100%;
+    top: 0%;
+    float: left;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+#Project > div
+{
+    margin: 20px;
+    width: 20%;
+    height: 70%;
+    position: relative;
+    border: 1px solid red;
+    float: left;
+    background-color: cadetblue;
 }
