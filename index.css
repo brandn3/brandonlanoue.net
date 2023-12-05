@@ -1,9 +1,18 @@
 html body
 {
     margin: 0px;
-    background-color: grey;
+    background-color: black;
+    filter: blur(100%);
     width: 100%;
     height: 100%;
+}
+body > img
+{
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+    position: absolute
 }
 #header
 {
@@ -12,83 +21,52 @@ html body
     
 
     width: 100%;
-    height: 10%;
-    background-color: white;
-    font-size: 4em;
+    height: 7%;
+    
+    color: wheat;
     display: flex;
-    justify-content: center;
-    align-items: center;
 
     box-sizing: border-box;
 }
-#About 
+#header > div 
 {
-    
-    position: absolute;
-    top: 15%;
-    left: 0;
-    width: 100%;
-    height:  40%;
-    background-color: pink;
-    font-size: 4em;
+    height: 100%;
+    width: 5%;
+
     display: flex;
+    font-size: 1em;
     justify-content: center;
-    
-}
-#About > #AP1
-{
-    position: absolute;
-    height: 10%;
-    width: 100%;
-    top: 0%;
+    align-items: center;
     float: left;
-    margin: 0px;
-    display: flex;
-    justify-content: center;
+    background-color: black;
+    box-sizing: border-box;
 }
-#About >#AP2
+#header > div:hover
 {
-    position: absolute;
-    top: 20%;
-    float: left;
-    margin: 0px;
-    width: 95%;
-    height: 30%;
-    background-color: white;
-    border: 3px solid black;
-    
+    background-color: darkolivegreen;
 }
-#About > #AP3
+#header > div:active
 {
-    position: absolute;
-    top: 55%;
-    float: left;
-    margin: 0px;
-    width: 95%;
-    height: 30%;
-    background-color: white;
-    border: 3px solid black;
-    
+    background-color: blue;
 }
 #Project
 {
     position: absolute;
-    top: 60%;
+    top: 7%;
     left: 0;
     width: 100%;
-    height:  40%;
-    background-color: rosybrown;
-    font-size: 4em;
+    height:  80%;
+  
+    color: wheat;
     
-    
-    
-    
+
 }
 #Project > #AP1
 {
     position: relative;
-    height: 20%;
+    height: 10%;
     width: 100%;
+    font-size: 2em;
     top: 0%;
     float: left;
     margin: 0px;
@@ -97,13 +75,67 @@ html body
     
    
 }
-#Project > div
+.project
 {
     margin: 20px;
     width: 20%;
-    height: 70%;
+    height: 30%;
     position: relative;
-    border: 1px solid red;
+    border: 1px solid rgb(25, 25, 109);
     float: left;
-    background-color: cadetblue;
+    
+    
+}
+.project > #Name
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    color: wheat;
+    border: 1px solid rgb(25, 25, 109); 
+    box-sizing: border-box;
+    position: absolute;
+}
+.project > #Desc 
+{
+    width: 100%;
+    height: 65%;
+    color: wheat;
+    border: 1px solid rgb(25, 25, 109); 
+    box-sizing: border-box;
+    position: absolute;
+    top: 15%;
+    
+}
+.project > #Play
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 15%;
+    color: wheat;
+    border: 1px solid rgb(25, 25, 109); 
+    box-sizing: border-box;
+    position: absolute;
+    top: 83%;
+    left: 40%;
+    
+}
+.project > #Play:hover
+{
+    background-color: darkolivegreen;
+}
+.project > #Play:active
+{
+    background-color: blue;
+}
+#Desc > a
+{
+     display: inline;
+     height: fit-content;
+     width: fit-content;
+     box-sizing: border-box;
 }
