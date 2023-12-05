@@ -135,8 +135,6 @@ body > img
 #Desc > a
 {
      display: inline;
-     height: fit-content;
-     width: fit-content;
      box-sizing: border-box;
 }
 #Blog
