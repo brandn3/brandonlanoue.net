@@ -12,6 +12,7 @@ function SendUser(Location)
 }
 function GotoPage(Page)
 {
+    
     let Project = document.getElementById("Project");
     let Blog = document.getElementById("Blog");
     
