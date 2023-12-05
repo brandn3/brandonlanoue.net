@@ -132,11 +132,6 @@ body > img
 {
     background-color: blue;
 }
-#Desc > a
-{
-     display: inline;
-     box-sizing: border-box;
-}
 #Blog
 {
     position: absolute;
