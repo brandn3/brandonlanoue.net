@@ -1,15 +1,4 @@
 
-function SendUser(Location)
-{
-    switch (Location)
-    {
-       
-        case 0:
-            window.location.href = "https://CultivateSim.brandonlanoue.net";
-        break;
-
-    }
-}
 function GotoPage(Page)
 {
     
