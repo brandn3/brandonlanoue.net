@@ -5,7 +5,7 @@ function SendUser(Location)
     {
        
         case 0:
-            window.location.href = "CultivateSim.brandonlanoue.net";
+            window.location.href = "https://CultivateSim.brandonlanoue.net";
         break;
 
     }
