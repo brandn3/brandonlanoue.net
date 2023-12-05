@@ -1,0 +1,141 @@
+html body
+{
+    margin: 0px;
+    background-color: black;
+    filter: blur(100%);
+    width: 100%;
+    height: 100%;
+}
+body > img
+{
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+    position: absolute
+}
+#header
+{
+
+    position: absolute;
+    
+
+    width: 100%;
+    height: 7%;
+    
+    color: wheat;
+    display: flex;
+
+    box-sizing: border-box;
+}
+#header > div 
+{
+    height: 100%;
+    width: 5%;
+
+    display: flex;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    background-color: black;
+    box-sizing: border-box;
+}
+#header > div:hover
+{
+    background-color: darkolivegreen;
+}
+#header > div:active
+{
+    background-color: blue;
+}
+#Project
+{
+    position: absolute;
+    top: 7%;
+    left: 0;
+    width: 100%;
+    height:  80%;
+  
+    color: wheat;
+    
+
+}
+#Project > #AP1
+{
+    position: relative;
+    height: 10%;
+    width: 100%;
+    font-size: 2em;
+    top: 0%;
+    float: left;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.project
+{
+    margin: 20px;
+    width: 20%;
+    height: 30%;
+    position: relative;
+    border: 1px solid rgb(25, 25, 109);
+    float: left;
+    
+    
+}
+.project > #Name
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    color: wheat;
+    border: 1px solid rgb(25, 25, 109); 
+    box-sizing: border-box;
+    position: absolute;
+}
+.project > #Desc 
+{
+    width: 100%;
+    height: 65%;
+    color: wheat;
+    border: 1px solid rgb(25, 25, 109); 
+    box-sizing: border-box;
+    position: absolute;
+    top: 15%;
+    
+}
+.project > #Play
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 15%;
+    color: wheat;
+    border: 1px solid rgb(25, 25, 109); 
+    box-sizing: border-box;
+    position: absolute;
+    top: 83%;
+    left: 40%;
+    
+}
+.project > #Play:hover
+{
+    background-color: darkolivegreen;
+}
+.project > #Play:active
+{
+    background-color: blue;
+}
+#Desc > a
+{
+     display: inline;
+     height: fit-content;
+     width: fit-content;
+     box-sizing: border-box;
+}
