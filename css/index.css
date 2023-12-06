@@ -32,7 +32,7 @@ body > img
 {
     height: 100%;
     width: 5%;
-
+    min-width: fit-content;
     display: flex;
     font-size: 1em;
     justify-content: center;
@@ -40,6 +40,7 @@ body > img
     float: left;
     background-color: black;
     box-sizing: border-box;
+    padding: 10px;
 }
 #header > div:hover
 {
@@ -59,16 +60,17 @@ body > img
   
     color: wheat;
     
+    
+    
 
 }
 #Project > #AP1
 {
-    position: relative;
+    position: absolute;
     height: 10%;
     width: 100%;
     font-size: 2em;
     top: 0%;
-    float: left;
     margin: 0px;
     display: flex;
     justify-content: center;
@@ -77,12 +79,15 @@ body > img
 }
 .project
 {
-    margin: 20px;
-    width: 20%;
-    height: 30%;
+    padding: 20px;
+    width: 33%;
+    top: 10%;
     position: relative;
-    border: 1px solid rgb(25, 25, 109);
+    height: 40%;
+    
+    box-sizing:border-box;
     float: left;
+    
     
     
 }
@@ -91,7 +96,7 @@ body > img
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: calc(100% - 40px);
     height: 15%;
     color: wheat;
     border: 1px solid rgb(25, 25, 109); 
@@ -100,13 +105,14 @@ body > img
 }
 .project > #Desc 
 {
-    width: 100%;
-    height: 65%;
+    width: calc(100% - 40px);
+    height: 55%;
     color: wheat;
     border: 1px solid rgb(25, 25, 109); 
     box-sizing: border-box;
     position: absolute;
-    top: 15%;
+    top: calc(15% + 20px);
+    overflow-y: auto;
     
 }
 #Play
@@ -155,4 +161,25 @@ body > img
     justify-content: center;
     
    
+}
+a
+{
+    color: beige;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+.project
+{
+    margin: 20px;
+    width: 90%;
+    top: 10%;
+    position: relative;
+    height: 40%;
+    overflow-y: scroll;
+    float: left;
+    
+    
+    
+}
 }
