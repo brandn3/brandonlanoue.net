@@ -1,0 +1,15 @@
+{
+  "name": "brandonlanoue.net",
+  "version": "1.0.0",
+  "description": "This project is the main code for my website brandonlanoue.net",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.1",
+    "nodemon": "^3.1.0"
+  }
+}
